@@ -203,8 +203,6 @@ public class Main extends JPanel {
 	        			Math.round(percent(rectas[i+1], false)));
 	        	g2d.drawImage(ground, ground_at, null);
         	}
-        	/*g2d.drawLine(Math.round(percent(rectas[i+0], true)), Math.round(percent(rectas[i+1], false)),
-        			Math.round(percent(rectas[i+2], true)), Math.round(percent(rectas[i+3], false)));*/
         }
         //Contadores
         g2d.setColor(Color.WHITE);

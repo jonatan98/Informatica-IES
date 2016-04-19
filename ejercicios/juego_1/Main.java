@@ -206,14 +206,6 @@ public class Main extends JPanel {
         	/*g2d.drawLine(Math.round(percent(rectas[i+0], true)), Math.round(percent(rectas[i+1], false)),
         			Math.round(percent(rectas[i+2], true)), Math.round(percent(rectas[i+3], false)));*/
         }
-        /*int[] estrellas = Pista.obtenerEstrellas(percent(pantalla_coord[0], true, true), percent(frame_width, true, true));
-        for(int i = 0; i < estrellas.length; i = i + 2){
-        	Image estrella_ = estrella.getScaledInstance(20, 30, 0);
-        	AffineTransform estrella_at = new AffineTransform();
-        	estrella_at.translate(Math.round(percent(estrellas[i], true)), 
-        			Math.round(percent(estrellas[i+1], false)));
-        	g2d.drawImage(estrella_, estrella_at, null);
-        }*/
         //Contadores
         g2d.setColor(Color.WHITE);
         g2d.fillRect(5, 5, 200, 100);

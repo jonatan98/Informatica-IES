@@ -99,7 +99,7 @@ public class Main extends JPanel {
 	}
 	
 	public static void main(String[] args) throws InterruptedException, LineUnavailableException{
-		JFrame frame = new JFrame("ACTIVIDAD 5");
+		JFrame frame = new JFrame("EJERCICIO 2");
 		Main game = new Main();
 		frame.add(game);
 		frame.setSize(1000, 600);
